@@ -1,0 +1,190 @@
+:root {
+    --body-BackGround: #e6d5a8;
+  }
+
+  @media (max-width: 800px){
+    p {
+      font-size: 10px;
+    }
+  }
+  
+  #title {
+    color: red;
+    font-size: 50px;
+    font-family: Shizuru;
+    font-weight: 1000;
+    text-align: center;
+    background-color: rgba(45, 45, 45, 0.1);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.19);
+  }
+  h1:hover {
+    transform: scale(1.1);
+  }
+
+  .stars {
+    background-color: rgb(219, 127, 127);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    position: relative;
+  }
+
+  .star-1 {
+    margin-top: 5%;
+    margin-left: 80%;
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+  }
+
+  .star-2 {
+    margin-top: -4%;
+    margin-left: 15%;
+    animation-name: twinkle-2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+  }
+
+  @keyframes twinkle-1 {
+    0% {
+      top: 0px;
+    }
+    100% {
+      top: 249px;
+      opacity: 0.1;
+    }
+  }
+
+  @keyframes twinkle-2 {
+    0% {
+      top: 0px;
+    }
+    100% {
+      top: 249px;
+      opacity: 0.1;
+    }
+  }
+  
+  #logo {
+    border-radius: 35%;
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+    width:300px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    box-shadow: 0 100px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  .paragrahp {
+    text-align: center;
+    font-size: 35px;
+    color: #e32b75;
+    font-family: 'Yanone Kaffeesatz';
+  }
+  
+  .ul {
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz';
+    text-transform: capitalize;
+    line-height: 50px;
+  }
+  
+  #find {
+    text-align: center;
+  }
+  
+  #tw {
+    padding: 0px 0px 0px 690px;
+  }
+  a:hover {
+    color: red;
+  }
+  
+  .form {
+    font-size: 20px;
+    background: linear-gradient(35deg, #ecd791, #e0612f);
+    border-radius: 10px;
+    border-color: #c7a448;
+    border-width: 10px;
+    border-style: solid;
+    position: relative;
+    top: 20px;
+  }
+  #contact {
+    font-size: 35px;
+    background-color: rgba(45, 45, 45, 0.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    position: relative;
+    left: 43%;
+  }
+  #full {
+    position: relative;
+    left: 43%;
+  }
+  #email {
+    position: relative;
+    left: 43%;
+  }
+  #email-box {
+    position: relative;
+    left: 37px;
+  }
+  #coun {
+    position: relative;
+    left: 43%;
+  }
+  #country {
+    position: relative;
+    left: 656px;
+  }
+
+  .AGE {
+    position: relative;
+    left: 43%;
+  }
+
+  .learn {
+    position: relative;
+    left: 43%;
+  }
+  #input1 {
+    position: relative;
+    left: 656px;
+  }
+
+  .message {
+    position: relative;
+    left: 43%;
+  }
+  .message1 {
+    position: relative0;
+    left: 33%;
+  }
+
+  button {
+    position: relative;
+    left: 45%;
+    border-radius: 5px;
+    color: white;
+    background-color: #0F5897;
+  }
+  button:hover {
+    animation-name: width;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+  @keyframes width {
+    100% {
+      width: 60px;
+      height: 40px;
+      background-color: #350509;
+    }
+  }
+
+  .body {
+    background-color: brown;
+    background-color: var(--body-BackGround, #e6d5a8);
+  }

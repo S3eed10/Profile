@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+        <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+        <title>Profile</title>
+    </head>
+    <body class="body">
+        <!--first task-->
+        <header>
+            <h1 id="title">S3eed Mohammed</h1>
+        </header>
+        <main>
+            <div id="back"></div>
+            <div class="star-1 stars"></div>
+            <div class="star-2 stars"></div>
+            
+            <figure>
+                <img id="logo" src="https://static.timesofisrael.com/www/uploads/2021/10/iStock-962366210.jpg" alt="Logo of profile">
+            </figure>
+
+            <article>
+                <p class="paragrahp">مهتم بالتقنية خاصة أمن الشبكات وأمن تطبيقات الويب</p>
+            </article>
+            <section>
+                <ul class="ul">
+                    <li>Porgramming</li>
+                    <li>Packet Analyzing</li>
+                    <li>Researching on papers</li>
+                </ul>   
+            </section>
+            <section>
+                <h3 id="find"><u><em>Find Me ON</em></u></h3>
+                <nav>
+                    <a id="tw" target="_blank" href="https://twitter.com/Saeed10Mohammed">Twitter</a> ||  
+                    <a target="_blank" href="https://www.instagram.com/saaid10mohammed/">Inastagram</a><br>
+                </nav>
+                <audio id="mu" controls autoplay>
+                    <source src="../موسيقى روسية شهيرة للجيش الاحمر جيش الاتحاد السوفيتي سابقا (192 kbps).mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+        </main>
+
+        <!--second task-->
+        <hr>
+        <form class="form">
+        <strong id="contact" tabindex="0">Contact with me</strong><br>
+        <p id="full">Full Name <input type="text" placeholder="Your Full Name" required></p>
+        <p id="email">Email <input id="email-box" type="text" placeholder="Your Email" required></p>
+        
+        <lable id="coun" for="country">Country</lable>
+        <select id="country" required>
+            <option value="KSA">KSA</option>
+            <option value="SYA">SYA</option>
+            <option value="USA">USA</option>
+        </select><br>
+        
+        <P class="AGE" tabindex="1"><b>Please select your Age:</b></p>
+        <lable for="Age1" class="AGE" >
+            <input type="radio" name="Age" id="Age1" value="18 - 25" required>18 - 25
+        </lable><br>
+        <lable for="Age2" class="AGE">
+            <input type="radio" name="Age" id="Age2" value="25 - 35" required>25 - 35
+        </lable><br>
+        <lable for="Age3" class="AGE">
+            <input type="radio" name="Age" id="Age3" value="35 - 60" required>35 - 60
+        </lable><br>
+        
+        <p class="learn" tabindex="2"><b>You want to learn:</b><p>
+        <lable for="learn1" class="learn">
+            <input type="checkbox" name="learn" id="learn1" value="HTML">HTML
+        </lable><br>
+        <lable for="learn2" class="learn">
+            <input type="checkbox" name="learn" id="learn2" value="CSS">CSS
+        </lable><br>
+        <lable for="learn3" class="learn">
+            <input type="checkbox" name="learn" id="learn3" value="JavaScript">JavaScript
+        </lable><br><br>
+        <label for="input1" class="learn"><b>Enter a date:</b></label>
+        <input type="date" id="input1" name="input1">
+
+        <p class="message"><b>Message:</b><p>
+        <textarea class="message message1" rows="12" cols="50" name="comment" placeholder="Write something..">
+        </textarea><br>
+        <button accesskey="s">submit</button>
+        <footer>&copy; 2022 Alsaaid Mohammed Saleh</footer>
+        </form>
+        
+        
+    </body>
+</html>
